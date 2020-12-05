@@ -1,4 +1,16 @@
 #myVideo {
-  position: fixed;
-  display: flex;
+    position: fixed;
+    display: flex;
+}
+
+.img:hover {
+    transform: rotate(-3deg);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform-style: preserve-3d;
+}
+
+.img2:hover {
+    transform: rotate(3deg);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform-style: preserve-3d;
 }
