@@ -14,3 +14,33 @@
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
     transform-style: preserve-3d;
 }
+
+#bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.nav-link:hover{
+   transform: rotate(-1deg);
+}
+
+.rounded:hover{
+    box-shadow: inset;
+}
+
+.demo{
+ text-decoration: wavy;
+ text-align: center;
+ text-shadow: 3rem;
+ text-overflow: ellipsis;
+ color: rgb(63, 12, 12);
+ text-indent: 0rem;
+}
+
